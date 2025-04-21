@@ -1,0 +1,59 @@
+
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
+
+
+local Window = OrionLib:MakeWindow({
+    Name = "Vergil Custom Gloves :D",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "SigmaConfigs" -- Put the name of your hub or script here!
+})
+
+print("Successfully executed.") -- Just a debug
+
+local Tab = Window:MakeTab({
+    Name = "Info",
+    Icon = "rbxassetid://12649307059",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Custom Gloves Yippie!!"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Death☠️ by BasicallyJustAFool/Mojjos" .. playerName ..",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/UnFinishedDeathGlove-MadeByTheFool-.lua'))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Minos Prime🟦 By KietVN",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent/KietVN02202/refs/heads/main/MinosPrimeFanMade1.5.txt'))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "EdgeLord🟪⬛ Made By No aur- I mean Incognito Scripts",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/Edgelord'))()
+  end    
+})
+
+
+Tab:AddButton({
+    Name = "Sans🦴 Made By Incognito Scripts (   No Aura Guy >:)  )",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansGloveFinished"))()
+  end    
+
+Tab:AddButton({
+    Name = "MoneyAhh Hub 1.7 (Key Is anticheatGotNothinOnMoneyAhh) Made by Ribbined (   ⭐Aura Guy⭐   )",
+    Callback = function()
+        loadstring(game:HttpGet("raw.githubusercontent.com/CorpseCMD/MyScripts/refs/head/main/MoneyAhhForAlphaKillstreak.lua"))()
+  end    
+})
