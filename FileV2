@@ -1,60 +1,51 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+   Name = "Custom Gloves Yippie!! :D",
+   Icon = crosshair, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "Hold On Silly. It's Loading.",
+   LoadingSubtitle = "by Vergil",
+   Theme = "Amethyst", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
 
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = Slap Battles, -- Create a custom folder for your hub/game
+      FileName = "VergilSigma:D"
+   },
 
-local Window = OrionLib:MakeWindow({
-    Name = "Vergil Custom Gloves :D",
-    HidePremium = false,
-    SaveConfig = true,
-    ConfigFolder = "SigmaConfigs" -- Put the name of your hub or script here!
+   Discord = {
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided", -- Use this to tell the user how to get a key
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
 })
+local Tab = Window:CreateTab("Custom Gloves Here Goober <3", locate) -- Title, Image
 
-print("Successfully executed.") -- Just a debug
+local Tab = Window:CreateTab("Death☠️, Duality☯️, ETC..", "skull")
 
-local Tab = Window:MakeTab({
-    Name = "Info",
-    Icon = "rbxassetid://12649307059",
-    PremiumOnly = false
-})
+local Section = Tab:CreateSection("Death☠️")
 
-local Section = Tab:AddSection({
-    Name = "Custom Gloves Yippie!!"
-})
+local Section = Tab:CreateSection("Duality☯️")
 
-local playerName = game.Players.LocalPlayer.Name
+local Section = Tab:CreateSection("Crystalized🔮")
 
-Tab:AddButton({
-    Name = "Death☠️ by BasicallyJustAFool/Mojjos" .. playerName ..",
-    Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/UnFinishedDeathGlove-MadeByTheFool-.lua'))()
-    end
-})
+local Section = Tab:CreateSection("EdgeLord⬛🟪")
 
-Tab:AddButton({
-    Name = "Minos Prime🟦 By KietVN",
-    Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent/KietVN02202/refs/heads/main/MinosPrimeFanMade1.5.txt'))()
-  end    
-})
+local Section = Tab:CreateSection("Minos Prime🟦")
 
-Tab:AddButton({
-    Name = "EdgeLord🟪⬛ Made By No aur- I mean Incognito Scripts",
-    Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/Edgelord'))()
-  end    
-})
+local Section = Tab:CreateSection("Sans🦴 (Pure Bones Guy)")
 
-
-Tab:AddButton({
-    Name = "Sans🦴 Made By Incognito Scripts (   No Aura Guy >:)  )",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansGloveFinished"))()
-  end    
-
-Tab:AddButton({
-    Name = "MoneyAhh Hub 1.7💸💰 (Key Is anticheatGotNothinOnMoneyAhh) Made by Ribbined (   ⭐Aura Guy⭐   )",
-    Callback = function()
-        loadstring(game:HttpGet("raw.githubusercontent.com/CorpseCMD/MyScripts/refs/head/main/MoneyAhhForAlphaKillstreak.lua"))()
-  end    
-})
-OrionLib:Init()
+local Section = Tab:CreateSection("MoneyAhh Hub💰💸")
