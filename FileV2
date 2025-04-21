@@ -32,3 +32,11 @@ local Window = Rayfield:CreateWindow({
       Key = {"VergilIsDaSigma:D"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
+
+local Tab = Window:CreateTab("Custom Gloves Here Goober <3", 4483362458) -- Title, Image
+local Section = CustomTab:CreateSection("Death💀")
+local Section = CustomTab:CreateSection("Duality🟦")
+local Section = CustomTab:CreateSection("Crystalized🔮")
+local Section = CustomTab:CreateSection("Minos Prime 1.5🟦")
+local Section = CustomTab:CreateSection("Sans🦴")
+local Divider = CustomTab:CreateDivider()
