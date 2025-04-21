@@ -1,5 +1,5 @@
 
-local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 
 
 local Window = OrionLib:MakeWindow({
@@ -52,8 +52,9 @@ Tab:AddButton({
   end    
 
 Tab:AddButton({
-    Name = "MoneyAhh Hub 1.7 (Key Is anticheatGotNothinOnMoneyAhh) Made by Ribbined (   ⭐Aura Guy⭐   )",
+    Name = "MoneyAhh Hub 1.7💸💰 (Key Is anticheatGotNothinOnMoneyAhh) Made by Ribbined (   ⭐Aura Guy⭐   )",
     Callback = function()
         loadstring(game:HttpGet("raw.githubusercontent.com/CorpseCMD/MyScripts/refs/head/main/MoneyAhhForAlphaKillstreak.lua"))()
   end    
 })
+OrionLib:Init()
