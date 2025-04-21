@@ -34,18 +34,71 @@ local Window = Rayfield:CreateWindow({
 })
 local Tab = Window:CreateTab("Custom Gloves Here Goober <3", locate) -- Title, Image
 
-local Tab = Window:CreateTab("Death☠️, Duality☯️, ETC..", "skull")
 
 local Section = Tab:CreateSection("Death☠️")
 
+local Button = Tab:CreateButton({
+   Name = "Death💀",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/UnFinishedDeathGlove-MadeByTheFool-.lua'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
 local Section = Tab:CreateSection("Duality☯️")
+
+local Button = Tab:CreateButton({
+   Name = "Duality☯️",
+   Callback = function()
+       loadstring(game:HttpGet("https://github.com/kizzysigma/nan/blob/main/DualityOBFS"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
 
 local Section = Tab:CreateSection("Crystalized🔮")
 
+local Button = Tab:CreateButton({
+   Name = "Crystalized🔮",
+   Callback = function()
+       loadstring(game:HttpGet('https://github.com/kizzysigma/nan/blob/main/CrystalizedOBFS'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
 local Section = Tab:CreateSection("EdgeLord⬛🟪")
 
+local Button = Tab:CreateButton({
+   Name = "EdgeLord⬛🟪",
+   Callback = function()
+       loadstring(game:HttpGet('https://github.com/IncognitoScripts/SlapBattles/refs/heads/main/Edgelord'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
 local Section = Tab:CreateSection("Minos Prime🟦")
+local Button = Tab:CreateButton({
+   Name = "Minos Prime🟦",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/MinosPrimeFanMade1.5.txt'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
 
 local Section = Tab:CreateSection("Sans🦴 (Pure Bones Guy)")
+local Button = Tab:CreateButton({
+   Name = "Sans🦴",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansGloveFinished'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
 
-local Section = Tab:CreateSection("MoneyAhh Hub💰💸")
+local Section = Tab:CreateSection("MoneyAhh Hub💸💰")
+
+local Button = Tab:CreateButton({
+   Name = "MoneyAhh Hub 💰💸 (key is anticheatGotNothinOnMoneyAhh)",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CorpseCMD/MyScripts/refs/heads/main/MoneyAhhForAlphaKillstreak.lua'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
