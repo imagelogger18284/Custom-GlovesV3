@@ -35,8 +35,44 @@ local Window = Rayfield:CreateWindow({
 
 local Tab = Window:CreateTab("Custom Gloves Here Goober <3", 4483362458) -- Title, Image
 local Section = CustomTab:CreateSection("Death💀")
-local Section = CustomTab:CreateSection("Duality🟦")
+local Button = Tab:CreateButton({
+   Name = "Death☠️",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/UnFinishedDeathGlove-MadeByTheFool-.lua'))()
+   end,
+})
+local Section = CustomTab:CreateSection("Duality☯️")
+local Button = Tab:CreateButton({
+   Name = "Duality☯️",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/kizzysigma/nan/refs/heads/main/DualityOBFS'))()
+   end,
+})
 local Section = CustomTab:CreateSection("Crystalized🔮")
+local Button = Tab:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/kizzysigma/nan/refs/heads/main/CrystalizedOBFS'))()
+   end,
+})
 local Section = CustomTab:CreateSection("Minos Prime 1.5🟦")
+local Button = Tab:CreateButton({
+   Name = "Minos Prime🟦",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/MinosPrimeFanMade1.5.txt'))()
+   end,
+})
 local Section = CustomTab:CreateSection("Sans🦴")
+local Button = Tab:CreateButton({
+   Name = "Pure Bones 🦴(Sans 🦴)",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansGloveFinished'))()
+   end,
+})
 local Divider = CustomTab:CreateDivider()
+
+
+
+
+
+Rayfield:LoadConfiguration()
