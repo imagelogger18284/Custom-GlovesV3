@@ -34,8 +34,9 @@ local Window = Rayfield:CreateWindow({
 })
 local Tab = Window:CreateTab("Custom Gloves Here Goober <3", locate) -- Title, Image
 
+local Divider = Tab:CreateDivider()
 
-local Section = Tab:CreateSection("Death☠️")
+local Section = Tab:CreateSection("Death☠️, Duality☯️, ETC.")
 
 local Button = Tab:CreateButton({
    Name = "Death💀",
