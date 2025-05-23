@@ -41,18 +41,22 @@ local Button = Tab:CreateButton({
        loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/UnFinishedDeathGlove-MadeByTheFool-.lua'))()
    end,
 })
-local Section = Tab:CreateSection("Duality☯️")
+
+local Section = Tab:CreateSection("Dizzy Hub")
 local Button = Tab:CreateButton({
-   Name = "Duality☯️",
+   Name = "Dizzy Hub (For Kizzy Gloves)",
    Callback = function()
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/kizzysigma/nan/refs/heads/main/DualityOBFS'))()
-   end,
-})
-local Section = Tab:CreateSection("Crystalized🔮")
-local Button = Tab:CreateButton({
-   Name = "Crystalized🔮",
-   Callback = function()
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/kizzysigma/nan/refs/heads/main/CrystalizedOBFS'))()
+       function load(url)
+loadstring(game:HttpGet(url))()
+end
+
+load('https://github.com/kizzylmfao/DH-Games/raw/refs/heads/main/7DTL')
+
+if game.PlaceId == 124428765053468 then
+load('https://github.com/kizzylmfao/DH-Games/raw/refs/heads/main/SLJ')
+elseif game.PlaceId == 88339269113204 then
+load('https://github.com/kizzylmfao/DH-Games/raw/refs/heads/main/HK')
+end
    end,
 })
 local Section = Tab:CreateSection("Minos Prime 1.5🟦")
