@@ -63,10 +63,19 @@ end)
 })
 
 local Button = MainTab:CreateButton({
-   Name = "☯️Crystallized☯️",
+   Name = "☯️Baldi☯️",
    Callback = function()
 
 loadstring(game:HttpGet('https://pastefy.app/FXLGsd8U/raw"))()
+end)
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "☯️Crystallized☯️",
+   Callback = function()
+
+loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/SisyphusPrime.lua"))()'))()
 end)
    end,
 })
