@@ -42,12 +42,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Section = Tab:CreateSection("Dizzy Hub")
-local Button = Tab:CreateButton({
-   Name = "Duality☯️",
-   Callback = function()
-       loadstring(game:HttpGet('https://pastefy.app/vS0DNpMX/raw'))()
-end,
+,
 local Section = Tab:CreateSection("Minos Prime 1.5🟦")
 local Button = Tab:CreateButton({
    Name = "Minos Prime🟦",
@@ -62,7 +57,14 @@ local Button = Tab:CreateButton({
        loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansGloveFinished'))()
    end,
 })
-
+local Tab = Window:CreateTab("Custom Gloves Here Goober <3", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Death💀")
+local Button = Tab:CreateButton({
+   Name = "Sisyphus Prime 🟨",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/SisyphusPrime.lua"))()
+   end,
+})
 local Section = Tab:CreateSection("OVERSEER🧿")
 local Button = Tab:CreateButton({
    Name = "OVERSEER🧿",
