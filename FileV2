@@ -90,7 +90,6 @@ local Button = Tab:CreateButton({
     loadstring(game:HttpGet('https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/OVERSEERGlove.txt'))()
    end,
 })
-
 local Tab = Window:CreateTab("Extras :3")", 4483362458
 local Button = Tab:CreateButton({
    Name = "☯️Bootleg UFO☯️",
