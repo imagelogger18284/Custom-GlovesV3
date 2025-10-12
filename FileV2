@@ -3,7 +3,7 @@ local Window = Rayfield:CreateWindow({
    Name = "Custom Gloves :D",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Thanks for Executing!",
-   LoadingSubtitle = "by Bunby",
+   LoadingSubtitle = "by Bunny",
    ShowText = "Custom Gloves", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "Bloom", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
@@ -88,5 +88,31 @@ local Button = Tab:CreateButton({
    Name = "☯️OVERSEER☯️",
    Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/OVERSEERGlove.txt'))()
+   end,
+})
+
+local Tab = Window:CreateTab("Extras :3")", 4483362458
+local Button = Tab:CreateButton({
+   Name = "☯️Bootleg UFO☯️",
+   Callback = function()
+    loadstring(game:HttpGet('https://pastefy.app/FvkMGkUs/raw'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "☯️All Masteries (I recommend Rob)☯️",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/InstantMasteries'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "☯️Avatar Abuser (Use at your own risk)☯️",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Umbrella-Scripter/Slap-Battles/refs/heads/main/%5BRevived%5DAvatarAbuser.lua'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "☯️Glove Morph (Cheap Invincibility☯️",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripter/Public-Scripts/refs/heads/Slap-Battles/main/Glove-Morph'))()
    end,
 })
