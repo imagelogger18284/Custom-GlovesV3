@@ -58,7 +58,7 @@ local Button = Tab:CreateButton({
    end,
 })
 local Tab = Window:CreateTab("Custom Gloves Here Goober <3", 4483362458) -- Title, Image
-local Section = Tab:CreateSection("Death💀")
+local Section = Tab:CreateSection("Sisyphus Prime🟨")
 local Button = Tab:CreateButton({
    Name = "Sisyphus Prime 🟨",
    Callback = function()
@@ -70,6 +70,20 @@ local Button = Tab:CreateButton({
    Name = "OVERSEER🧿",
    Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/OVERSEERGlove.txt")
+   end,
+})
+local Section = Tab:CreateSection("Emotes🕺")
+local Button = Tab:CreateButton({
+   Name = "Emote Packs 🕺",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/FeEmote.lua")
+   end,
+})
+local Section = Tab:CreateSection("KillerFish🐟")
+local Button = Tab:CreateButton({
+   Name = "KillerFish🐟",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/6bb50b24fb9e293092866ba01c4a65dcaa43a57f/FeKillerfish2.0.lua")
    end,
 })
 
