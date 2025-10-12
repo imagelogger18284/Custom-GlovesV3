@@ -1,9 +1,10 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
 local Window = Rayfield:CreateWindow({
-   Name = "Custom Gloves Yippie!!",
-   Icon = locate, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Hold On Silly. Loading...",
-   LoadingSubtitle = "by Vergil :D",
+   Name = "🪽FunScripts🪽",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "🪽FunScripts🪽",
+   LoadingSubtitle = "by Bunny",
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
@@ -11,84 +12,61 @@ local Window = Rayfield:CreateWindow({
 
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = Slap_Battles, -- Create a custom folder for your hub/game
-      FileName = "VergilConfigs"
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "FunscriptsGuiFF1"
    },
 
    Discord = {
       Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
-      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
 
-   KeySystem = true, -- Set this to true to use our key system
+   KeySystem = false, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Thanks For Using Pookie♥️",
-      Subtitle = "No Need To Join DC",
-      Note = "(Key Is VergilIsDaSigma:D)", -- Use this to tell the user how to get a key
-      FileName = "SigmaVergilKey", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      Title = "Key System",
+      Subtitle = "To Verify your not a bot, Please type: Key1109888",
+      Note = "Key is required to continue!", -- Use this to tell the user how to get a key
+      FileName = "Keyforent1r11", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"VergilIsDaSigma:D"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"Key1109888"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
-local Tab = Window:CreateTab("Custom Gloves Here Goober <3", 4483362458) -- Title, Image
-local Section = Tab:CreateSection("Death💀")
-local Button = Tab:CreateButton({
-   Name = "Death☠️",
+local MainTab = Window:CreateTab("🏡 Home 🏡", nil) -- Title, Image
+local MainSection = Tab:CreateSection("Fun Stuff")
+
+Rayfield:Notify({
+   Title = "Welcome!",
+   Content = "Enjoy!",
+   Duration = 6.5,
+   Image = nil,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "☯️Duality☯️",
    Callback = function()
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/UnFinishedDeathGlove-MadeByTheFool-.lua'))()
+
+loadstring(game:HttpGet('https://pastefy.app/qV30Xups/raw'))()
+end)
    end,
 })
 
-,
-local Section = Tab:CreateSection("Minos Prime 1.5🟦")
-local Button = Tab:CreateButton({
-   Name = "Minos Prime🟦",
+local Button = MainTab:CreateButton({
+   Name = "☯️Sisyphus Prime☯️",
    Callback = function()
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/MinosPrimeFanMade1.5.txt'))()
-   end,
-})
-local Section = Tab:CreateSection("Sans🦴")
-local Button = Tab:CreateButton({
-   Name = "Pure Bones 🦴(Sans 🦴)",
-   Callback = function()
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansGloveFinished'))()
-   end,
-})
-local Tab = Window:CreateTab("Custom Gloves Here Goober <3", 4483362458) -- Title, Image
-local Section = Tab:CreateSection("Sisyphus Prime🟨")
-local Button = Tab:CreateButton({
-   Name = "Sisyphus Prime 🟨",
-   Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/SisyphusPrime.lua"))()
-   end,
-})
-local Section = Tab:CreateSection("OVERSEER🧿")
-local Button = Tab:CreateButton({
-   Name = "OVERSEER🧿",
-   Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/OVERSEERGlove.txt")
-   end,
-})
-local Section = Tab:CreateSection("Emotes🕺")
-local Button = Tab:CreateButton({
-   Name = "Emote Packs 🕺",
-   Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/FeEmote.lua")
-   end,
-})
-local Section = Tab:CreateSection("KillerFish🐟")
-local Button = Tab:CreateButton({
-   Name = "KillerFish🐟",
-   Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/6bb50b24fb9e293092866ba01c4a65dcaa43a57f/FeKillerfish2.0.lua")
-   end,
-})
-local Divider = Tab:CreateDivider()
 
+loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/SisyphusPrime.lua"))()'))()
+end)
+   end,
+})
 
+local Button = MainTab:CreateButton({
+   Name = "☯️Crystallized☯️",
+   Callback = function()
 
-
-Rayfield:LoadConfiguration()
+loadstring(game:HttpGet('https://pastefy.app/FXLGsd8U/raw"))()
+end)
+   end,
+})
