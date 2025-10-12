@@ -106,3 +106,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Umbrella-Scripter/Sla
 end)
    end,
 })
+
+
+
+Rayfield:LoadConfiguration()
