@@ -57,7 +57,7 @@ local Button = MainTab:CreateButton({
    Name = "☯️Sisyphus Prime☯️",
    Callback = function()
 
-loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/SisyphusPrime.lua"))()'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/SisyphusPrime.lua'))()
 end)
    end,
 })
@@ -75,7 +75,34 @@ local Button = MainTab:CreateButton({
    Name = "☯️Crystallized☯️",
    Callback = function()
 
-loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/SisyphusPrime.lua"))()'))()
+loadstring(game:HttpGet('loadstring(game:HttpGet("https://pastefy.app/qV30Xups/raw'))()
+end)
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "☯️Emotes☯️",
+   Callback = function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/FeEmote.lua'))()
+end)
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "☯️KillerFish☯️",
+   Callback = function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KietVN02202/KietVN02202/6bb50b24fb9e293092866ba01c4a65dcaa43a57f/FeKillerfish2.0.lua'))()
+end)
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "☯️Gojo☯️",
+   Callback = function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Umbrella-Scripter/Slap-Battles/CustomGlove%3AGojo.lua'))()
 end)
    end,
 })
