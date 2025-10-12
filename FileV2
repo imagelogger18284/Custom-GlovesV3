@@ -44,21 +44,10 @@ local Button = Tab:CreateButton({
 
 local Section = Tab:CreateSection("Dizzy Hub")
 local Button = Tab:CreateButton({
-   Name = "Dizzy Hub🌰(For Kizzy Gloves)",
+   Name = "Duality☯️",
    Callback = function()
-       function load(url)
-loadstring(game:HttpGet(url))()
-end
-
-load('https://github.com/kizzylmfao/DH-Games/raw/refs/heads/main/7DTL')
-
-if game.PlaceId == 124428765053468 then
-load('https://github.com/kizzylmfao/DH-Games/raw/refs/heads/main/SLJ')
-elseif game.PlaceId == 88339269113204 then
-load('https://github.com/kizzylmfao/DH-Games/raw/refs/heads/main/HK')
-end
-   end,
-})
+       loadstring(game:HttpGet('https://pastefy.app/vS0DNpMX/raw'))()
+end,
 local Section = Tab:CreateSection("Minos Prime 1.5🟦")
 local Button = Tab:CreateButton({
    Name = "Minos Prime🟦",
