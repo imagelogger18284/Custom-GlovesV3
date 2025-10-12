@@ -101,7 +101,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "☯️All Masteries (I recommend Rob)☯️",
    Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/InstantMasteries'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/InstantMasteries'))()
    end,
 })
 local Button = Tab:CreateButton({
@@ -113,6 +113,6 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "☯️Glove Morph (Cheap Invincibility☯️",
    Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripter/Public-Scripts/refs/heads/Slap-Battles/main/Glove-Morph'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/main/Glove-Morph'))()
    end,
 })
