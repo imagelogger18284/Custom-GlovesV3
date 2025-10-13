@@ -40,7 +40,7 @@ local Tab = Window:CreateTab("Custom Gloves (All Credits to the owners)", 448336
 local Button = Tab:CreateButton({
    Name = "☯️Duality☯️",
    Callback = function()
-    loadstring(game:HttpGet('https://pastefy.app/KxTkNubt/raw'))()
+    loadstring(game:HttpGet('https://pastefy.app/vS0DNpMX/raw'))()
    end,
 })
 local Button = Tab:CreateButton({
@@ -69,7 +69,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Umbrella-Scripter/Sla
 local Button = Tab:CreateButton({
    Name = "☯️Minos Prime☯️",
    Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/KietVN02202/KietVN02202/MinosPrimeFanMade2.0.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/MinosPrimeFanMade2.0.lua'))()
    end,
 })
 local Button = Tab:CreateButton({
@@ -81,7 +81,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "☯️Sans☯️",
    Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/SansComeBack'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansComeback'))()
    end,
 })
 local Button = Tab:CreateButton({
