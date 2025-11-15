@@ -110,8 +110,14 @@ local Button = Tab:CreateButton({
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "☯️Glove Morph (Cheap Invincibility☯️",
+   Name = "☯️Glove Morph (Cheap Invincibility)☯️",
    Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/main/Glove-Morph'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "☯️Despair (Made by the goat Kizzy)☯️",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/kizzylmfao/Despair/refs/heads/main/DespairWIP'))()
    end,
 })
